@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
 
-
+//FINALIZOU O PDF DA AULA 15 01 - PROJETO FRONT END MVC CONSUMINDO API CRUD
 namespace AlimentosMvc.Controllers
 {
     public class AlimentosController : Controller
@@ -72,7 +72,7 @@ namespace AlimentosMvc.Controllers
 
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    TempData["Mensagem"] = string.Format("Personagem {0}, Id {1} salvo com sucesso", p.Nome, serialized);
+                    TempData["Mensagem"] = string.Format("Alimento {0}, Id {1} salvo com sucesso", p.Nome, serialized);
                     return RedirectToAction("Index");
                 }
                 else
@@ -85,6 +85,132 @@ namespace AlimentosMvc.Controllers
             }
 
         }
+
+         [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        
+        [HttpGet]
+        public async Task<ActionResult> DetailsAsync(int? id)
+
+        {
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+                string token = HttpContext.Session.GetString("SessionTokenUsuario");
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                HttpResponseMessage response = await httpClient.GetAsync(UriBase + id.ToString());
+                string serialized = await response.Content.ReadAsStringAsync();
+
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    AlimentosViewModel p = await Task.Run(() =>
+                    JsonConvert.DeserializeObject<AlimentosViewModel>(serialized));
+                    return View(p);
+                }
+                else
+                    throw new System.Exception(serialized);
+            }
+            catch (System.Exception ex)
+            {
+                TempData["MensagemErro"] = ex.Message;
+                return RedirectToAction("Index");
+            }
+        }
+
+           [HttpGet]
+        public async Task<ActionResult> EditAsync(int? id)
+        {
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+                string token = HttpContext.Session.GetString("SessionTokenUsuario");
+
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                HttpResponseMessage response = await httpClient.GetAsync(UriBase + id.ToString());
+
+                string serialized = await response.Content.ReadAsStringAsync();
+
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    AlimentosViewModel p = await Task.Run(() =>
+                    JsonConvert.DeserializeObject<AlimentosViewModel>(serialized));
+                    return View(p);
+                }
+                else
+                    throw new System.Exception(serialized);
+            }
+            catch (System.Exception ex)
+            {
+                TempData["MensagemErro"] = ex.Message;
+                return RedirectToAction("Index");
+            }
+        }
+
+                [HttpPost]
+        public async Task<ActionResult> EditAsync(AlimentosViewModel p)
+        {
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+                string token = HttpContext.Session.GetString("SessionTokenUsuario");
+
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                var content = new StringContent(JsonConvert.SerializeObject(p));
+                content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+                HttpResponseMessage response = await httpClient.PutAsync(UriBase, content);
+                string serialized = await response.Content.ReadAsStringAsync();
+
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    TempData["Mensagem"] =
+                    string.Format("Personagem {0}, classe {1} atualizado com sucesso!", p.Nome, p.Classe);
+
+                    return RedirectToAction("Index");
+                }
+                else
+                    throw new System.Exception(serialized);
+            }
+            catch (System.Exception ex)
+            {
+                TempData["MensagemErro"] = ex.Message;
+                return RedirectToAction("Index");
+            }
+        }
+
+            [HttpGet]
+        public async Task<ActionResult> DeleteAsync(int id)
+        {
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+                string token = HttpContext.Session.GetString("SessionTokenUsuario");
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+                HttpResponseMessage response = await httpClient.DeleteAsync(UriBase + id.ToString());
+                string serialized = await response.Content.ReadAsStringAsync();
+
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    TempData["Mensagem"] =
+                    string.Format("Personagem {0} removido com com sucesso!", id);
+
+                    return RedirectToAction("Index");
+                }
+                else
+                    throw new System.Exception(serialized);
+            }
+            catch (System.Exception ex)
+            {
+                TempData["MensagemErro"] = ex.Message;
+                return RedirectToAction("Index");
+            }
+        }
+
 
     }
 }

@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace AlimentosMvc.Enuns
 {
-    public class ClasseEnum
+    public enum ClasseEnum
     {
-        
+        Legumes = 1,
+        Verduras = 2,
+        Carnes = 3,
+        Frutas = 4,
+        Derivados = 5
     }
 }
