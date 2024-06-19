@@ -1,0 +1,8 @@
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.csproj.AssemblyReference.cache
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.GeneratedMSBuildEditorConfig.editorconfig
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.AssemblyInfoInputs.cache
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.AssemblyInfo.cs
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.csproj.CoreCompileInputs.cache
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.MvcApplicationPartsAssemblyInfo.cache
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.RazorAssemblyInfo.cache
+D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.RazorAssemblyInfo.cs
