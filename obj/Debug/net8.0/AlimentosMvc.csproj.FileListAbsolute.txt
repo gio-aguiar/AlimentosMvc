@@ -6,3 +6,40 @@ D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.csproj.CoreCompileInputs.
 D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.MvcApplicationPartsAssemblyInfo.cache
 D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.RazorAssemblyInfo.cache
 D:\giovanna\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.RazorAssemblyInfo.cs
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.csproj.AssemblyReference.cache
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.AssemblyInfoInputs.cache
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.AssemblyInfo.cs
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.csproj.CoreCompileInputs.cache
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.RazorAssemblyInfo.cache
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.RazorAssemblyInfo.cs
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.sourcelink.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\appsettings.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\AlimentosMvc.staticwebassets.runtime.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\AlimentosMvc.exe
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\AlimentosMvc.deps.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\AlimentosMvc.runtimeconfig.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\AlimentosMvc.dll
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\AlimentosMvc.pdb
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\staticwebassets\msbuild.AlimentosMvc.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\staticwebassets\msbuild.build.AlimentosMvc.props
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AlimentosMvc.props
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AlimentosMvc.props
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\scopedcss\bundle\AlimentosMvc.styles.css
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\scopedcss\projectbundle\AlimentosMvc.bundle.scp.css
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\Alimento.AEA28689.Up2Date
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.dll
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\refint\AlimentosMvc.dll
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.pdb
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\AlimentosMvc.genruntimeconfig.cache
+C:\Users\giovanna\Documents\Estudos\ETEC has\DS\AlimentosMvc\obj\Debug\net8.0\ref\AlimentosMvc.dll

@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
 
-//FINALIZOU O PDF DA AULA 15 01 - PROJETO FRONT END MVC CONSUMINDO API CRUD
+
 namespace AlimentosMvc.Controllers
 {
     public class AlimentosController : Controller

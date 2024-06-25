@@ -242,23 +242,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\etechas\\.nuget\\packages\\": {},
+    "C:\\Users\\giovanna\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\giovanna\\AlimentosMvc\\AlimentosMvc.csproj",
+      "projectUniqueName": "C:\\Users\\giovanna\\Documents\\Estudos\\ETEC has\\DS\\AlimentosMvc\\AlimentosMvc.csproj",
       "projectName": "AlimentosMvc",
-      "projectPath": "D:\\giovanna\\AlimentosMvc\\AlimentosMvc.csproj",
-      "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-      "outputPath": "D:\\giovanna\\AlimentosMvc\\obj\\",
+      "projectPath": "C:\\Users\\giovanna\\Documents\\Estudos\\ETEC has\\DS\\AlimentosMvc\\AlimentosMvc.csproj",
+      "packagesPath": "C:\\Users\\giovanna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\giovanna\\Documents\\Estudos\\ETEC has\\DS\\AlimentosMvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\giovanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -280,6 +280,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -310,7 +315,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
